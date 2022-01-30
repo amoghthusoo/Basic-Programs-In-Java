@@ -9,7 +9,7 @@ class Wav_Player{
     public static void main(String[] args) throws UnsupportedAudioFileException, LineUnavailableException, IOException{
         Scanner scanner = new Scanner(System.in);
 
-        File file = new File("monody.wav");
+        File file = new File("<example>.wav");   //Edit this line.
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
