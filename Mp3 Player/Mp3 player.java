@@ -27,7 +27,7 @@ class Mp3Player {
 
     public static void main(String[] args) {
 
-        Mp3Player mp3 = new Mp3Player("monody.mp3");
+        Mp3Player mp3 = new Mp3Player("<example>.mp3");   //Edit this line.
         mp3.play();
     }
 }
